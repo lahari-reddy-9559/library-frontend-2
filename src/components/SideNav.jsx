@@ -15,7 +15,7 @@ export default function sideNav(){
             <Link style={{color:'white',textDecoration:'None' ,display:'block', marginBottom:'20px'}} to='/dashboard/add'>Add Books</Link>
             <Link style={{color:'white',textDecoration:'None',display:'block', marginBottom:'20px'}} to="/dashboard/issue">Issue Books</Link>
             <Link style={{color:'white' ,textDecoration:'None' ,display:'block', marginBottom:'20px'}} to="/dashboard/list">List Books</Link>
-            <Link style={{color:'white' ,textDecoration:'None' ,display:'block', marginBottom:'20px'}} to='/dashboard/contact'>Contact</Link>
+            {/* <Link style={{color:'white' ,textDecoration:'None' ,display:'block', marginBottom:'20px'}} to='/dashboard/contact'>Contact</Link> */}
             <button onClick={handleLogout} style={{color:'black',borderRadius:'5px',padding:'2px 3px'}}>Logout</button>
         </div>
     )

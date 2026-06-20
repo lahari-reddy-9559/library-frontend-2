@@ -26,7 +26,7 @@ export default function About(){
               </div>
               </div>
               <div className='col-md-3'>
-              <div className='card bg-success text-white shadow'>
+              <div className='card bg-success text-white shadow h-100'>
                 <div className='card-body'>
                   <h5>Digital Tracking</h5>
                   <p>Up-to-date log records managed instantly.</p>
@@ -34,7 +34,7 @@ export default function About(){
               </div>
               </div>
               <div className='col-md-3'>
-              <div className='card bg-warning text-white shadow'>
+              <div className='card bg-warning text-white shadow h-100'>
                 <div className='card-body'>
                   <h5>Seamless Returns</h5>
                   <p>Easy book renewals and immediate checkout updates.</p>
@@ -42,7 +42,7 @@ export default function About(){
               </div>
               </div>
               <div className='col-md-3'>
-              <div className='card bg-danger text-white shadow'>
+              <div className='card bg-danger text-white shadow h-100'>
                 <div className='card-body'>
                   <h5>Overdue Alerts</h5>
                   <p>Automated reminders for pending distributions.</p>
